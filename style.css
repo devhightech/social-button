@@ -1,0 +1,53 @@
+* { 
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: 'Titillium Web', sans-serif;
+  background-image: linear-gradient(315deg, #ffffff 0%, #d4e8f0 74%);
+}
+
+body, .flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-btn {
+  width: 100px;
+  height: 100px;
+
+  color: #9CDAF0;
+  background-color: white;
+
+  cursor: pointer;
+  border-radius: 10px;
+
+  transition: 1s;
+  box-shadow: 0 10 10 rgba(0, 0, 0, 0.1);
+}
+
+.social-btn span {
+  width: 0;
+  font-size: 25px;
+
+  transition: 1s;
+  overflow: hidden;
+  text-align: center;
+}
+
+.social-btn:hover{
+  width: 250px;
+}
+
+.social-btn:hover span {
+  padding: 2px;
+  width: max-content;
+}
+
+#github {
+  fill:#9CDAF0;
+}
